@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fb;
+    color: #003366;
+    padding: 20px;
+
+    overflow-x: hidden;
+  }
+  
+  /* Section headings */
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #003366;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    background-color: #E4EFE7;
+    padding: 60px 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    /* padding-top: 4rem; */
+    overflow: visible;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  /* Project Info & About */
+  .project-info,
+  .about-section,
+  .tech-stack,
+  .features {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  /* Features */
+  .features ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .features li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* Team Section */
+  .team-section {
+    background-color: #f0f4f8;
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 1100px;
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .member {
+    background-color: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .member:hover {
+    transform: translateY(-8px);
+  }
+  
+  .member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #003366;
+  }
+  
+  .member p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* Tech Stack */
+  .tech-stack p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: #007BFF;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .member {
+      width: 80%;
+    }
+  
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+  
+    section h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
